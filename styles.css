@@ -23,6 +23,11 @@ img {
     border-radius: 500px;
     width: 200px;
 }
+a {
+    background-color: #003b36;
+    padding: 10px;
+    border-radius: 8px;
+}
 .align-center {
     text-align: center;
 }
@@ -33,8 +38,21 @@ img {
     margin-top: 40px;
     margin-bottom: 60px;
 }
-.item {
+.item, a {
     text-decoration: none;
     color: #E6E2C1;
     margin: 40px;
+}
+#button-container {
+    padding: 10px;
+    text-align: center;
+}
+.button {
+    text-align: center;
+    max-width: 150px;
+    display: inline-block;
+    background-color: #003b36;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 8px;
 }
